@@ -71,7 +71,7 @@ function compile(dir, files, specificSolc) {
   output.errors = output.errors.filter(x=>x.indexOf('Error:') >= 0);
   if (output.errors.length > 0) throw output.errors;
   
-  console.log('Comilation Success\n');
+  console.log('Compilation Success\n');
   return output;
 }
 
